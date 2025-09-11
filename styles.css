@@ -1,33 +1,33 @@
 /* Modern Portfolio Design System - Dark Theme with Vibrant Gradients */
 
 :root {
-  /* Dark Portfolio Theme */
-  --background: 224 71% 4%;
-  --foreground: 213 31% 91%;
-  --card: 224 71% 6%;
-  --card-foreground: 213 31% 91%;
+  /* Light Portfolio Theme */
+  --background: 0 0% 100%;
+  --foreground: 222 47% 11%;
+  --card: 0 0% 100%;
+  --card-foreground: 222 47% 11%;
   --primary: 263 70% 50%;
-  --primary-foreground: 210 40% 98%;
-  --secondary: 215 25% 27%;
-  --secondary-foreground: 210 40% 98%;
-  --muted: 215 25% 27%;
-  --muted-foreground: 217 10% 65%;
+  --primary-foreground: 0 0% 98%;
+  --secondary: 210 40% 96%;
+  --secondary-foreground: 222 47% 11%;
+  --muted: 210 40% 96%;
+  --muted-foreground: 215 16% 47%;
   --accent: 188 78% 41%;
-  --accent-foreground: 224 71% 4%;
-  --border: 215 25% 18%;
-  --input: 215 25% 18%;
+  --accent-foreground: 0 0% 98%;
+  --border: 214 32% 91%;
+  --input: 214 32% 91%;
   --ring: 263 70% 50%;
 
   /* Custom Portfolio Colors */
   --hero-gradient: linear-gradient(135deg, hsl(263 70% 50%), hsl(188 78% 41%));
   --hero-gradient-subtle: linear-gradient(135deg, hsl(263 70% 50% / 0.1), hsl(188 78% 41% / 0.1));
-  --card-gradient: linear-gradient(145deg, hsl(224 71% 6%), hsl(215 25% 8%));
-  --skill-gradient: linear-gradient(90deg, hsl(263 70% 50% / 0.2), hsl(188 78% 41% / 0.2));
+  --card-gradient: linear-gradient(145deg, hsl(0 0% 100%), hsl(210 40% 98%));
+  --skill-gradient: linear-gradient(90deg, hsl(263 70% 50% / 0.1), hsl(188 78% 41% / 0.1));
   
   /* Glow Effects */
-  --glow-primary: 0 0 40px hsl(263 70% 50% / 0.3);
-  --glow-accent: 0 0 40px hsl(188 78% 41% / 0.3);
-  --glow-subtle: 0 0 20px hsl(263 70% 50% / 0.1);
+  --glow-primary: 0 0 40px hsl(263 70% 50% / 0.2);
+  --glow-accent: 0 0 40px hsl(188 78% 41% / 0.2);
+  --glow-subtle: 0 0 20px hsl(263 70% 50% / 0.08);
 
   /* Transitions */
   --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
