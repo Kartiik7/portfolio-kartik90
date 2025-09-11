@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "siteName": "Kartik Portfolio",
+    "description": "Personal portfolio of Kartik showcasing projects, skills, and experience.",
+    "author": "Kartik",
+    "lastUpdated": "2025-09-11",
+    "language": "en"
+  },
+  "featureFlags": {
+    "showBlog": false,
+    "showTestimonials": true,
+    "showContactForm": true,
+    "enableDarkModeToggle": true
+  },
+  "profile": {
+    "name": "Kartik Sharma",
+    "role": "Full Stack Developer",
+    "tagline": "Building scalable web applications & seamless user experiences.",
+    "location": "Remote / India",
+    "avatar": "assets/images/avatar.jpg",
+    "resumeUrl": "assets/docs/resume.pdf",
+    "summary": [
+      "Full stack engineer with focus on React, Node.js, and cloud-native architecture.",
+      "Passionate about performance optimization, clean code, and developer experience."
+    ]
+  },
+  "contact": {
+    "email": "hello@example.com",
+    "phone": "+91-0000000000",
+    "github": "https://github.com/your-username",
+    "linkedin": "https://www.linkedin.com/in/your-handle",
+    "twitter": "https://twitter.com/your-handle",
+    "website": "https://yourdomain.dev",
+    "availability": "Open to full-time & freelance opportunities"
+  },
+  "socialLinks": [
+    { "id": "gh", "label": "GitHub", "url": "https://github.com/your-username", "icon": "github" },
+    { "id": "li", "label": "LinkedIn", "url": "https://www.linkedin.com/in/your-handle", "icon": "linkedin" },
+    { "id": "tw", "label": "Twitter", "url": "https://twitter.com/your-handle", "icon": "twitter" }
+  ],
+  "skills": {
+    "primary": [
+      { "name": "JavaScript", "level": 90 },
+      { "name": "TypeScript", "level": 85 },
+      { "name": "React", "level": 90 },
+      { "name": "Node.js", "level": 88 },
+      { "name": "Next.js", "level": 80 },
+      { "name": "PostgreSQL", "level": 75 }
+    ],
+    "secondary": [
+      "GraphQL",
+      "Docker",
+      "CI/CD",
+      "Redis",
+      "AWS",
+      "Tailwind CSS",
+      "Testing (Jest / Vitest)"
+    ],
+    "highlighted": [
+      "Performance Optimization",
+      "System Design",
+      "API Design",
+      "Clean Architecture"
+    ]
+  },
+  "projects": [
+    {
+      "id": "proj-portfolio",
+      "name": "Developer Portfolio",
+      "description": "A performant, modular portfolio template with JSON-driven content.",
+      "tech": ["React", "TypeScript", "Vite", "Tailwind"],
+      "github": "https://github.com/your-username/portfolio",
+      "live": "https://portfolio.yourdomain.dev",
+      "images": ["assets/projects/portfolio-1.png"],
+      "featured": true
+    },
+    {
+      "id": "proj-analytics",
+      "name": "Analytics Dashboard",
+      "description": "Real-time dashboard for monitoring application metrics & user behavior.",
+      "tech": ["Next.js", "Node.js", "PostgreSQL", "WebSockets"],
+      "github": "https://github.com/your-username/analytics-dashboard",
+      "live": null,
+      "images": [],
+      "featured": false
+    },
+    {
+      "id": "proj-tasker",
+      "name": "Task Manager API",
+      "description": "REST + GraphQL hybrid API with role-based access control.",
+      "tech": ["Node.js", "Express", "GraphQL", "JWT", "Docker"],
+      "github": "https://github.com/your-username/task-manager-api",
+      "live": null,
+      "images": [],
+      "featured": false
+    }
+  ],
+  "experience": [
+    {
+      "id": "exp-1",
+      "company": "TechCorp",
+      "role": "Software Engineer",
+      "start": "2023-06",
+      "end": "Present",
+      "location": "Remote",
+      "highlights": [
+        "Improved API response times by 40% via query optimization & caching.",
+        "Led migration from CRA to Vite, reducing build times by 60%.",
+        "Implemented automated testing pipeline raising coverage to 85%."
+      ],
+      "tech": ["React", "Node.js", "PostgreSQL", "Redis", "Docker"]
+    },
+    {
+      "id": "exp-2",
+      "company": "Startup Labs",
+      "role": "Frontend Developer",
+      "start": "2022-01",
+      "end": "2023-05",
+      "location": "Hybrid",
+      "highlights": [
+        "Built component library adopted across 3 products.",
+        "Introduced performance budget & profiling—cut LCP from 4.2s to 1.8s."
+      ],
+      "tech": ["React", "TypeScript", "Storybook", "Webpack"]
+    }
+  ],
+  "education": [
+    {
+      "id": "edu-1",
+      "institution": "State University",
+      "degree": "B.Sc. Computer Science",
+      "start": "2018",
+      "end": "2022",
+      "details": ["Focus: Software Engineering & Distributed Systems"]
+    }
+  ],
+  "certifications": [
+    {
+      "id": "cert-aws",
+      "title": "AWS Certified Cloud Practitioner",
+      "issuer": "AWS",
+      "year": 2024,
+      "url": "https://aws.amazon.com/certification/"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "test-1",
+      "name": "Jane Doe",
+      "role": "CTO, TechCorp",
+      "quote": "Kartik consistently delivers high-quality solutions with strong attention to scalability and maintainability."
+    }
+  ],
+  "services": [
+    {
+      "id": "svc-frontend",
+      "title": "Frontend Engineering",
+      "description": "Building accessible, performant, component-driven UIs.",
+      "icon": "code"
+    },
+    {
+      "id": "svc-backend",
+      "title": "Backend & APIs",
+      "description": "Designing secure, scalable REST & GraphQL services.",
+      "icon": "server"
+    },
+    {
+      "id": "svc-architecture",
+      "title": "System Architecture",
+      "description": "Optimizing system design for reliability & cost-efficiency.",
+      "icon": "layers"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "2025",
+      "items": ["Scaling open-source portfolio template", "Exploring edge runtimes"]
+    },
+    {
+      "year": "2024",
+      "items": ["Shipped real-time analytics feature", "Improved build pipeline"]
+    }
+  ],
+  "footer": {
+    "copyright": "© 2025 Kartik. All rights reserved.",
+    "builtWith": ["React", "TypeScript", "Vite"]
+  }
+}
