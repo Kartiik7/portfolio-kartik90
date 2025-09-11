@@ -263,7 +263,7 @@ window.addEventListener('DOMContentLoaded', function () {
             });
         }
     }
-
+    
     // Slight tweak: ensure lucide icons refresh after each major batch render
     function refreshIcons() { if (window.lucide) window.lucide.createIcons(); }
 
