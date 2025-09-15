@@ -19,19 +19,19 @@ const Contact = () => {
     {
       icon: <Mail className="h-5 w-5" />,
       label: "Email",
-      value: "hello@developer.com",
-      link: "mailto:hello@developer.com"
+      value: "k95241906@gmail.com",
+      link: "mailto:k95241906@gmail.com"
     },
     {
       icon: <Phone className="h-5 w-5" />,
       label: "Phone", 
-      value: "+1 (555) 123-4567",
-      link: "tel:+15551234567"
+      value: "xxx-xxx-xxx-xxx",
+      link: "tel:xxxxxxxxxxxx"
     },
     {
       icon: <MapPin className="h-5 w-5" />,
       label: "Location",
-      value: "San Francisco, CA",
+      value: "Chandigarh",
       link: "#"
     }
   ];
@@ -40,20 +40,20 @@ const Contact = () => {
     {
       icon: <Github className="h-5 w-5" />,
       label: "GitHub",
-      url: "https://github.com",
-      username: "@developer"
+      url: "https://github.com/kartiik7",
+      username: "@kartiik7"
     },
     {
       icon: <Linkedin className="h-5 w-5" />,
       label: "LinkedIn", 
-      url: "https://linkedin.com",
-      username: "/in/developer"
+      url: "https://linkedin.com/kartik-patel03",
+      username: "/in/kartik-patel03"
     },
     {
       icon: <Twitter className="h-5 w-5" />,
-      label: "Twitter",
-      url: "https://twitter.com",
-      username: "@developer"
+      label: "LeetCode",
+      url: "https://leetcode.com/u/ikartiikpatel/",
+      username: "/u/ikartiikpatel/"
     }
   ];
 

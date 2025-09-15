@@ -13,32 +13,20 @@ import {
 
 const About = () => {
   const experiences = [
-    {
-      role: "Senior Full Stack Developer",
-      company: "TechCorp Solutions",
-      period: "2022 - Present",
-      description: "Leading development of enterprise applications serving 10k+ users. Architected microservices, mentored junior developers, and implemented CI/CD pipelines."
-    },
-    {
-      role: "Full Stack Developer", 
-      company: "StartupXYZ",
-      period: "2020 - 2022",
-      description: "Built scalable web applications from scratch. Collaborated with design and product teams to deliver user-centric solutions."
-    },
-    {
-      role: "Frontend Developer",
-      company: "Digital Agency Inc",
-      period: "2019 - 2020",
-      description: "Created responsive websites and interactive web applications for various clients across different industries."
-    }
+    // {
+    //   role: "Senior Full Stack Developer",
+    //   company: "TechCorp Solutions",
+    //   period: "2022 - Present",
+    //   description: "Leading development of enterprise applications serving 10k+ users. Architected microservices, mentored junior developers, and implemented CI/CD pipelines."
+    // }
   ];
 
   const education = [
     {
       degree: "Bachelor of Science in Computer Science",
-      school: "State University",
-      period: "2015 - 2019",
-      description: "Focused on software engineering, algorithms, and data structures. Graduated Magna Cum Laude."
+      school: "Chandigarh University",
+      period: "2023 - 2027",
+      description: "Focused on software engineering, algorithms, Machine Learning, and data structures."
     }
   ];
 
@@ -64,7 +52,7 @@ const About = () => {
             About <span className="text-gradient">Me</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            I'm a passionate full stack developer with 5+ years of experience building 
+            I'm a passionate full stack developer building 
             exceptional digital experiences. I love turning complex problems into simple, 
             beautiful, and intuitive solutions.
           </p>

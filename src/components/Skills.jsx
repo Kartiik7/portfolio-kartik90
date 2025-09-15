@@ -18,41 +18,39 @@ const Skills = () => {
     {
       icon: <Code2 className="h-6 w-6" />,
       title: "Frontend Development",
-      skills: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Vue.js", "Angular"],
+      skills: ["React", "HTML", "CSS", "JavaScript"],
       color: "text-primary"
     },
     {
       icon: <Database className="h-6 w-6" />,
       title: "Backend Development", 
-      skills: ["Node.js", "Python", "PostgreSQL", "MongoDB", "Express", "FastAPI"],
+      skills: ["Node.js", "Express", "FastAPI", "JWT"],
       color: "text-secondary"
     },
-    {
-      icon: <Cloud className="h-6 w-6" />,
-      title: "Cloud & DevOps",
-      skills: ["AWS", "Docker", "Kubernetes", "CI/CD", "Terraform", "Vercel"],
-      color: "text-accent"
-    },
-    {
-      icon: <Smartphone className="h-6 w-6" />,
-      title: "Mobile Development",
-      skills: ["React Native", "Flutter", "iOS", "Android", "Expo", "PWA"],
-      color: "text-primary"
-    }
+    // {
+    //   icon: <Cloud className="h-6 w-6" />,
+    //   title: "Cloud & DevOps",
+    //   skills: ["AWS", "Docker", "Kubernetes", "CI/CD", "Terraform", "Vercel"],
+    //   color: "text-accent"
+    // },
+    // {
+    //   icon: <Smartphone className="h-6 w-6" />,
+    //   title: "Mobile Development",
+    //   skills: ["React Native", "Flutter", "iOS", "Android", "Expo", "PWA"],
+    //   color: "text-primary"
+    // }
   ];
 
   const tools = [
-    "VS Code", "Git", "GitHub", "Figma", "Postman", "Docker", 
-    "Jira", "Slack", "Linear", "Notion", "Firebase", "Supabase"
+    "VS Code", "GitHub", "Postman", "MongoDB", "Google Cloud", 
   ];
 
   const technicalSkills = [
-    { skill: "JavaScript/TypeScript", level: 95 },
-    { skill: "React/Next.js", level: 92 },
+    { skill: "JavaScript", level: 95 },
+    { skill: "React", level: 60 },
     { skill: "Node.js/Express", level: 88 },
-    { skill: "Python/Django", level: 85 },
     { skill: "Database Design", level: 90 },
-    { skill: "Cloud Architecture", level: 82 }
+    { skill: "Cloud Architecture", level: 62 }
   ];
 
   const softSkills = [
